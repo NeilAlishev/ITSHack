@@ -1,0 +1,17 @@
+# datasource properties
+jdbc.driver=org.postgresql.Driver
+jdbc.url=
+jdbc.user=
+jdbc.password=
+jdbc.minPoolSize=0
+jdbc.maxPoolSize=5
+jdbc.maxStatements=10
+jdbc.testConnection=true
+
+# hibernate properties
+hibernate.dialect=org.hibernate.dialect.PostgreSQL9Dialect
+
+# mongo properties
+#mongodb.name=
+#mongodb.host=127.0.0.1
+#mongodb.port=27017
